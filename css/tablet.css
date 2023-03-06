@@ -2,4 +2,96 @@
   .container {
     width: 768px;
   }
+  .mobile-menu,
+  .mobile-menu-open {
+    display: none;
+  }
+  .header-logo {
+    margin-right: 123px;
+  }
+  .address {
+    margin-left: 118px;
+  }
+  .address-item {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+  .address-mail {
+    margin-right: 0;
+  }
+  /*------------------- HERO----------------- */
+  .hero {
+    padding-bottom: 108px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tab-2x.jpg);
+    }
+  }
+  .hero-title {
+    width: 496px;
+    margin: 0 auto 40px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+  /*------------------- ABOUT----------------- */
+  /* .about-item:not(:last-child) {
+    margin-bottom: 72px;
+  } */
+  .about-list {
+    width: 100%;
+    gap: 72px 24px;
+  }
+  .about-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    margin-bottom: 8px;
+  }
+  .about-text {
+    width: 356px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  /*------------------- TEAM----------------- */
+  .team {
+    padding-top: 96px;
+    padding-bottom: 104px;
+  }
+  .team-list {
+    gap: 64px 24px;
+  }
+  /*------------------- CUSTOMERS----------------- */
+  .customers-list {
+    gap: 72px 24px;
+  }
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+  }
+}
+@media screen and (max-width: 1199px) {
+  .projects {
+    display: none;
+  }
 }
