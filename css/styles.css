@@ -207,8 +207,6 @@ body {
     ),
     url(../images/people-office-mob.jpg);
   background-size: cover;
-  /* max-width: 428px;
-  height: 600px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -257,11 +255,8 @@ body {
   flex-wrap: wrap;
   gap: 72px;
 }
-/* .about-item:not(:last-child) {
-  margin-bottom: 72px;
-} */
 .about-item {
-  width: 356px;
+  width: 396px;
 }
 .about-block {
   display: none;
@@ -398,13 +393,6 @@ body {
   background-color: var(--background-primary-section-color);
   padding-top: 96px;
   padding-bottom: 96px;
-  /* display: flex;
-  justify-content: flex-start; */
-}
-.footer-container {
-  /* display: flex; */
-}
-.footer-container-logo {
 }
 
 .footer-logo {
@@ -420,10 +408,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
-}
-
-.footer-social {
-  /* margin-left: 120px; */
 }
 .footer-social-text {
   margin-left: auto;
@@ -455,14 +439,6 @@ body {
 .footer-social-link:focus {
   background-color: #31d0aa;
 }
-
-.footer-social-item {
-}
-.footer-social-icon {
-}
-.subscribe {
-  margin-left: 80px;
-}
 .subscribe-title {
   font-weight: 500;
   font-size: 16px;
@@ -472,9 +448,6 @@ body {
   display: flex;
   justify-content: center;
   margin: 72px auto 16px;
-}
-.subscribe-form {
-  /* display: flex; */
 }
 .subscribe-form-input {
   width: 398px;
@@ -487,12 +460,7 @@ body {
   background-color: #2e2f42;
   margin-bottom: 16px;
 }
-.subscribe-form-input::placeholder {
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: rgba(255, 255, 255, 0.6);
-}
+
 .subscribe-form-submit {
   color: var(--hero-color);
   background: var(--background-second-btn-color);
@@ -501,8 +469,10 @@ body {
   border: none;
   width: 165px;
   height: 40px;
-  padding: 8px 64px 8px 24px;
+  padding: 8px 24px;
   margin-top: 0;
+  display: flex;
+  gap: 16px;
   margin-left: auto;
   margin-right: auto;
   transition: background var(--transition-duration-and-funk);
@@ -510,16 +480,7 @@ body {
 .subscribe-form-submit:is(:hover, :focus) {
   background: var(--hover-color);
 }
-.subscribe-form-submit-wrapper {
-  position: relative;
-}
-.subscribe-btn-icon {
-  position: absolute;
-  top: 50%;
-  right: 24px;
-  transform: translateY(-50%);
-  transition: fill var(--transition-duration-and-funk);
-}
+
 /*------------------- EXAMPLES and GALLERY----------------- */
 .examples {
   padding-top: 96px;
