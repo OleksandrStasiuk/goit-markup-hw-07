@@ -120,91 +120,12 @@
     padding-bottom: 120px;
   }
   .examples-list {
-    justify-content: center;
     margin-bottom: 72px;
-  }
-  .examples-item {
   }
   .examples-item:not(:last-child) {
     margin-right: 24px;
   }
-  .examples-btn {
-    color: var(--main-btn-color);
-    background: var(--background-main-btn-color);
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    padding: 12px 24px;
-    transition: box-shadow var(--transition-duration-and-funk),
-      color var(--transition-duration-and-funk),
-      background var(--transition-duration-and-funk);
-  }
-
-  .examples-btn:is(:hover, :focus) {
-    color: var(--hover-main-btn-color);
-    background: var(--hover-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-  }
   .galery-list {
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
     row-gap: 48px;
-    column-gap: 24px;
-  }
-  .galery-item {
-    transition: box-shadow var(--transition-duration-and-funk);
-  }
-
-  .galery-item:is(:hover, :focus) {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-  }
-  .galery-link {
-    display: block;
-  }
-  .galery-link:hover .galery-overlay,
-  .galery-link:focus .galery-overlay {
-    transform: translate(0, 0);
-  }
-  .galery-img-wrapper {
-    position: relative;
-    overflow: hidden;
-  }
-  .galery-overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    transform: translate(0, 100%);
-    transition: transform var(--transition-duration-and-funk);
-    line-height: 1.5;
-    color: #f4f4fd;
-    padding-top: 40px;
-    padding-right: 32px;
-    padding-bottom: 164px;
-    padding-left: 32px;
-    background-color: #4d5ae5;
-  }
-  .galery-card-content-wrapper {
-    border: 1px solid var(--border-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    border-top: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-  }
-  .galery-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    color: var(--title-text-color);
-  }
-  .galery-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
   }
 }
