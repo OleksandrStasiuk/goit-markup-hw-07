@@ -490,9 +490,6 @@ body {
   gap: 16px 24px;
   margin-bottom: 48px;
 }
-.examples-item {
-}
-
 .examples-btn {
   color: var(--main-btn-color);
   background: var(--background-main-btn-color);
@@ -503,7 +500,6 @@ body {
     color var(--transition-duration-and-funk),
     background var(--transition-duration-and-funk);
 }
-
 .examples-btn:is(:hover, :focus) {
   color: var(--hover-main-btn-color);
   background: var(--hover-color);
@@ -513,11 +509,6 @@ body {
 .galery-list {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  row-gap: 48px;
-  column-gap: 24px; */
 }
 .galery-item:not(:last-child) {
   margin-bottom: 48px;
