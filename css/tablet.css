@@ -47,9 +47,6 @@
     line-height: 1.07;
   }
   /*------------------- ABOUT----------------- */
-  /* .about-item:not(:last-child) {
-    margin-bottom: 72px;
-  } */
   .about-list {
     width: 100%;
     gap: 72px 24px;
@@ -59,24 +56,13 @@
   }
 
   .about-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
     text-align: left;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-    margin-bottom: 8px;
   }
   .about-text {
     width: 356px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
   }
   /*------------------- TEAM----------------- */
   .team {
-    padding-top: 96px;
     padding-bottom: 104px;
   }
   .team-list {
@@ -85,9 +71,55 @@
   /*------------------- CUSTOMERS----------------- */
   .customers-list {
     gap: 72px 24px;
+    margin-left: 93px;
+    margin-right: 93px;
   }
   .customers-item {
     width: calc((100% - 48px) / 3);
+  } /*------------------- FOOTER----------------- */
+  .footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-container-logo {
+    margin-left: 93px;
+  }
+
+  .footer-logo {
+    display: block;
+  }
+
+  .footer-text {
+    margin-top: 16px;
+    width: 264px;
+  }
+  .footer-social-text {
+    margin-left: 0;
+  }
+  .footer-social {
+    margin-left: 24px;
+  }
+  .subscribe {
+    margin-left: 93px;
+  }
+  .subscribe-title {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  .subscribe-form {
+    display: flex;
+  }
+  .subscribe-form-input {
+    width: 264px;
+  }
+  .subscribe-form-submit {
+    margin-left: 24px;
   }
 }
 @media screen and (max-width: 1199px) {
