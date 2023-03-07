@@ -131,6 +131,25 @@
   .subscribe-form-submit {
     margin-left: 24px;
   }
+  /*------------------- EXAMPLES and GALLERY----------------- */
+  .examples {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .examples-list {
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+  .galery-list {
+    flex-direction: row;
+    justify-content: flex-start;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .galery-item:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
 @media screen and (max-width: 1199px) {
   .projects {
