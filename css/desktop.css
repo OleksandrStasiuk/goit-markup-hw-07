@@ -8,6 +8,11 @@
   .header-logo {
     margin-right: 76px;
   }
+  .address-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
   .address-item:not(:last-child) {
     margin-right: 40px;
   }
@@ -67,6 +72,7 @@
   }
   .about-text {
     width: 264px;
+    font-weight: 400;
   }
 
   /*------------------- TEAM----------------- */
@@ -100,6 +106,9 @@
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+  .footer-text {
+    margin-bottom: 0;
   }
   .footer-container {
     flex-wrap: nowrap;
