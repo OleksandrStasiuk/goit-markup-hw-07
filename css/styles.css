@@ -220,7 +220,6 @@ body {
   }
 }
 .hero-title {
-  width: 320px;
   margin: 0 auto 72px;
   font-weight: 700;
   font-size: 36px;
@@ -567,6 +566,7 @@ body {
 .galery-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 /*------------------- MODAL WINDOW----------------- */
 .backdrop {
