@@ -131,9 +131,6 @@
   .examples-list {
     margin-bottom: 72px;
   }
-  .examples-item:not(:last-child) {
-    margin-right: 24px;
-  }
   .galery-list {
     row-gap: 48px;
   }
