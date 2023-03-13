@@ -16,6 +16,11 @@
   .mobile-menu-open {
     display: none;
   }
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
   .header-logo {
     margin-right: 123px;
   }
@@ -26,6 +31,9 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+  }
+  .address-item:not(:last-child) {
+    margin-bottom: 12px;
   }
   .address-mail {
     margin-right: 0;
